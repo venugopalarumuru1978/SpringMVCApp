@@ -10,6 +10,7 @@ public class DemoController {
 	public String Page1()
 	{
 		return "Home";  // Home is Home.jsp file name
+		// this is comment lines
 	}
 	
 	@GetMapping("/contact")
